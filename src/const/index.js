@@ -1,19 +1,21 @@
+// import { logo } from "../assets";
+
 export const navLinks = [
   {
     id: "home",
     title: "Home",
   },
   {
+    id: "about",
+    title: "About",
+  },
+  {
     id: "features",
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "testimonails",
+    title: "Testimonials",
   },
 ];
 
