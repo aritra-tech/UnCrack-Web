@@ -1,11 +1,16 @@
 import styles, { layout } from '../style'
 import {home,google} from '../assets'
+import { motion } from "framer-motion"
 
 
 const About = () => {
   return (
     <section id='about' className={layout.sectionReverse}>
-      <div className={layout.sectionImgReverse}>
+      <motion.div className={layout.sectionImgReverse}
+        initial={{ opacity: 0 }}  // Initial opacity value (hidden)
+        animate={{ opacity: 10 }}  // Final opacity value (visible)
+        transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2.5 }}
+      >
 
         <img src={home} alt="home" className='w-[90%] h-[90%] relative z-[5]'/>
 
@@ -14,9 +19,13 @@ const About = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
         {/* gradient end */}
 
-      </div>
+      </motion.div>
 
-      <div className={layout.sectionInfo}>
+      <motion.div className={layout.sectionInfo}
+        initial={{ opacity: 0 }}  // Initial opacity value (hidden)
+        animate={{ opacity: 10 }}  // Final opacity value (visible)
+        transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2 }}
+      >
         <h1 className={styles.heading2}>
             So, what is{" "}
             <span className='text-gradient'>UnCrack ?</span> {" "}
@@ -29,10 +38,10 @@ const About = () => {
         </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={google} alt="google_play" />
+        <img src={google} alt="google_play"/>
       </div>
 
-      </div>
+      </motion.div>
     </section>
   )
 }
