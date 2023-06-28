@@ -24,7 +24,7 @@ const About = () => {
       <motion.div className={layout.sectionInfo}
         initial={{ opacity: 0 }}  // Initial opacity value (hidden)
         animate={{ opacity: 10 }}  // Final opacity value (visible)
-        transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2 }}
+        transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2.3 }}
       >
         <h1 className={styles.heading2}>
             So, what is{" "}
@@ -38,7 +38,20 @@ const About = () => {
         </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={google} alt="google_play"/>
+        <img src={google} alt="google_play" className='mr-5'/>
+        <a
+          href="https://www.producthunt.com/posts/uncrack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uncrack"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=381745&theme=dark"
+            alt="UnCrack - Manage & secure your credentials efficiently | Product Hunt"
+            style={{ width: '180px', height: '54px' }}
+            width="250"
+            height="54"
+          />
+        </a>
       </div>
 
       </motion.div>

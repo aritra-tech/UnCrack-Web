@@ -6,11 +6,7 @@ import Button from './Button'
 const Home = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <motion.div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-        initial={{ opacity: 0 }}  // Initial opacity value (hidden)
-        animate={{ opacity: 10 }}  // Final opacity value (visible)
-        transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2.5 }}
-      >
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row items-center py-[2px] px-2 bg-discount-gradient rounded-[10px] mb-5">
           <img src={discount} alt="discount" className="w-[20px] h-[20px]" />
@@ -21,19 +17,19 @@ const Home = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-white ss:leading-[60px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-white ss:leading-[60px] animated-text">
             Go ahead. Forget your{" "}
             <span className="text-gradient">Password.</span> {" "}
           </h1>
         </div>
-        <p className={`${styles.paragraph} max-w-[490px] mt-4`}>
+        <p className={`${styles.paragraph} max-w-[490px] mt-4 animated-text`}>
           Store your passwords and other sensitive data. UnCrack is here to help.
           Protect yourself, your families information with simple security 
           and actionable insights.
         </p>
 
         <Button styles={`mt-10`}/>
-      </motion.div>
+      </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <motion.div
@@ -41,7 +37,7 @@ const Home = () => {
           animate={{ opacity: 10 }}  // Final opacity value (visible)
           transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 4 }}
         >
-        <img src={home} alt="uncrack" className="w-[90%] h-[90%] relative z-[5]" />
+        <img src={home} alt="uncrack" className="floating-image w-[90%] h-[90%] relative z-[5]" />
 
           {/* gradient start */}
           <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
