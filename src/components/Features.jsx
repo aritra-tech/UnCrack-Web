@@ -25,7 +25,7 @@ const Features = () => {
         <h2 className={styles.heading2}>
           No worries we'll handle<br className="sm:block hidden" />the credentials.
         </h2>
-        <p className={`${styles.paragraph} max-w-[490px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[500px] mt-3`}>
         With the access of right password at the right time, can save your time.With the convenience of fingerprint authentication, 
         users can effortlessly retrieve their login information without the fear of forgetting passwords or losing crucial details. 
         </p>
