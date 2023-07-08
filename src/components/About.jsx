@@ -1,5 +1,5 @@
 import styles, { layout } from '../style'
-import {home,google} from '../assets'
+import {google, about} from '../assets'
 import { motion } from "framer-motion"
 
 
@@ -12,7 +12,7 @@ const About = () => {
         transition={{ ease: [0.83, 0.67, 0.67, 0.17], duration: 2.5 }}
       >
 
-        <img src={home} alt="home" className='w-[90%] h-[90%] relative z-[5]'/>
+        <img src={about} alt="about" className='w-[85%] h-[85%] relative z-[5]'/>
 
         {/* gradient start */}
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
