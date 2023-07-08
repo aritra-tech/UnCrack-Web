@@ -41,18 +41,21 @@ export const feedback = [
     content:
       "Straight forward, easy to use and offline makes it more secure. Loved the concept! Saving my passwords 🙌.",
     name: "Binay Shaw",
+    from: "from Play Store",
   },
   {
     id: "feedback-2",
     content:
       "Amazing 💫 I've always needed an app like this!!",
     name: "Adnan Sameer",
+    from: "from Play Store",
   },
   {
     id: "feedback-3",
     content:
       "Amazing Application 🙌.",
     name: "Amit Maity",
+    from: "from Play Store",
   },
 ];
 
