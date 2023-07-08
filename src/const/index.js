@@ -1,4 +1,4 @@
-import { star, shield} from "../assets";
+import { star, shield, people1, people2, people3} from "../assets";
 
 export const navLinks = [
   {
@@ -42,6 +42,7 @@ export const feedback = [
       "Straight forward, easy to use and offline makes it more secure. Loved the concept! Saving my passwords 🙌.",
     name: "Binay Shaw",
     from: "from Play Store",
+    img: people1,
   },
   {
     id: "feedback-2",
@@ -49,6 +50,7 @@ export const feedback = [
       "Amazing 💫 I've always needed an app like this!!",
     name: "Adnan Sameer",
     from: "from Play Store",
+    img: people3,
   },
   {
     id: "feedback-3",
@@ -56,6 +58,7 @@ export const feedback = [
       "Amazing Application 🙌.",
     name: "Amit Maity",
     from: "from Play Store",
+    img: people2,
   },
 ];
 

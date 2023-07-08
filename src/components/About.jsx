@@ -38,7 +38,13 @@ const About = () => {
         </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={google} alt="google_play" className='mr-5'/>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.geekymusketeers.uncrack"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={google} alt="google_play" className='mr-5 w-[90%]' />
+      </a>
         <a
           href="https://www.producthunt.com/posts/uncrack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uncrack"
           target="_blank"
@@ -47,9 +53,7 @@ const About = () => {
           <img
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=381745&theme=dark"
             alt="UnCrack - Manage & secure your credentials efficiently | Product Hunt"
-            style={{ width: '180px', height: '54px' }}
-            width="250"
-            height="54"
+            className=' w-[80%]'
           />
         </a>
       </div>
