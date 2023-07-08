@@ -35,4 +35,24 @@ export const features = [
   },
 ];
 
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "Straight forward, easy to use and offline makes it more secure. Loved the concept! Saving my passwords 🙌.",
+    name: "Binay Shaw",
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Amazing 💫 I've always needed an app like this!!",
+    name: "Adnan Sameer",
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Amazing Application 🙌.",
+    name: "Amit Maity",
+  },
+];
 

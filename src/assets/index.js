@@ -4,6 +4,8 @@ import discount from "./Discount.svg"
 import google from "./google.svg"
 import star from "./Star.svg"
 import shield from "./Shield.svg"
+import quote from "./quote.svg"
+import scanqr from "./scanqr.svg"
 
 export {
     logo,
@@ -11,5 +13,7 @@ export {
     discount,
     google,
     star,
-    shield
+    shield,
+    quote,
+    scanqr,
 }
