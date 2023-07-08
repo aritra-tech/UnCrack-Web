@@ -4,6 +4,7 @@ import About from "./About";
 import Features from "./Features";
 import Testimonials from "./Testimonials"
 import Footer from "./Footer"
+import Download from "./Download"
 
 
 export {
@@ -13,4 +14,5 @@ export {
   Features,
   Testimonials,
   Footer,
+  Download,
 };
