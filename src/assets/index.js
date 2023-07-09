@@ -10,6 +10,8 @@ import people1 from "./people-1.svg"
 import people2 from "./people-2.svg"
 import people3 from "./people-3.svg"
 import about from "./about.svg"
+import close from "./close.svg"
+import menu from "./menu.svg"
 
 export {
     logo,
@@ -23,5 +25,7 @@ export {
     people1,
     people2,
     people3,
-    about
+    about,
+    close,
+    menu,
 }
